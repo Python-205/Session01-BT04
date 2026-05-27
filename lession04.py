@@ -8,7 +8,8 @@ print(f"Mã Bệnh Nhân:{code_bn}")
 print(f"Nhiệt Độ Cơ Thể: {temperature}")
 print(f"Nhip Tim:{heart_rate}")
 
-
+print(f" => Kiểu dữ liệu hệ thống ghi nhận: {type(temperature)}")
+print(f" => Kiểu dữ liệu hệ thống ghi nhận: {type(heart_rate)}")
 # Input:
 # - Mã bệnh nhân      -> kiểu chuỗi (str)
 # - Nhiệt độ cơ thể   -> cần lưu kiểu số thực (float)
